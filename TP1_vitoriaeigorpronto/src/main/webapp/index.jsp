@@ -30,7 +30,7 @@
   <h1> Formulário HTML js</h1> 
   <h2> Preencha o formulário abaixo</h2><br />
 
-<form oninput="x.value=parseInt(a.value)" action="Script_do_Formulario.php" method="post">
+<form oninput="x.value=parseInt(a.value)" action="/MeuprimeiroServlet" method="post">
 
 <!-- DADOS PESSOAIS-->
 <fieldset>
@@ -91,7 +91,7 @@
 
     <label for="interesse" >Interesse: (com multipla escolha</label>
     <select name="interesse" multiple size="5"> 
-        <option value="js" selected="js">JavaScript</option> 
+        <option value="js" selected="">JavaScript</option> 
         <option value="c">C</option> 
         <option value="pytho">Python</option> 
         <option value="java">Java</option> 
