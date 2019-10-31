@@ -28,7 +28,7 @@
     </head>
 
     <body>       
-        <%@include file="WEB-INF//jspf/Menutop.jspf" %>
+        <%@include file="WEB-INF/jspf/Menutop.jspf" %>
         <h2> Formulário HTML js</h2> 
         <h3> Preencha o formulário abaixo</3><br />
 
