@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.iff.edu.tp1_vitoriaeigorpronto;
+package br.iff.edu.tp1_vitoriaeigorpronto.entidades;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
