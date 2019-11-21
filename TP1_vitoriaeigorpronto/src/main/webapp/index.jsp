@@ -44,7 +44,7 @@
                     <label for="sobrenome">Sobrenome: </label>
                     <input type="text" name="sobrenome">
                 </div>
-                <br><br>
+                <br><br>                                                                                                                                                                           
                 <%--div>
                     <label>Nascimento: </label>
                     <label for="data">Data de nascimento: </label> 
@@ -62,7 +62,7 @@
                     <label>Selecione um valor de 1 à 100:</label>
                     <input
                         type="range"
-                        id="escala"
+                        id="escala"                                                                                                                                                                                                                                  
                         value="1"
                         min="1" max="100" 
                         oninput="document.getElementById('elementoRange').innerHTML = this.value"
