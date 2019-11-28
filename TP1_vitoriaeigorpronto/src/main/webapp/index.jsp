@@ -103,8 +103,7 @@
                     </select>
                 </div--%>
             </fieldset>
-       
-            <%--fieldset>
+       <fieldset>
                 <legend>Dados de documentos</legend>
                 <div>
                     <label for="rg">RG: </label>
@@ -118,7 +117,7 @@
 
             <br />
             <!-- ENDEREÇO -->
-            <fieldset>
+            <%--fieldset>
                 <legend>Dados de Endereço</legend>
                 <div>
                     <label for="rua">Rua:</label>

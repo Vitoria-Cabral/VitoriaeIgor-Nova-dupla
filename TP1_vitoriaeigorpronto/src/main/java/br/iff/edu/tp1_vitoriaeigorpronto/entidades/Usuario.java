@@ -32,6 +32,12 @@ import javax.xml.bind.annotation.XmlRootElement;
     , @NamedQuery(name = "Usuario.findBySenha", query = "SELECT u FROM Usuario u WHERE u.senha = :senha")})
 public class Usuario implements Serializable {
 
+    @Size(max = 20)
+    @Column(name = "doc_rg")
+    private String docRg;
+    @Column(name = "doc_cpf")
+    private Long docCpf;
+
     private static final long serialVersionUID = 1L;
     // @Max(value=?)  @Min(value=?)//if you know range of your decimal fields consider using these annotations to enforce field validation
     @Id
@@ -45,7 +51,7 @@ public class Usuario implements Serializable {
     @Size(max = 2147483647)
     @Column(name = "senha")
     private String senha;
-
+ 
     public Usuario() {
     }
 
@@ -100,6 +106,30 @@ public class Usuario implements Serializable {
     @Override
     public String toString() {
         return "br.iff.edu.tp1_vitoriaeigorpronto.Usuario[ idUsuario=" + idUsuario + " ]";
+    }
+
+    public String getDocRg() {
+        return docRg;
+    }
+
+    public void setDocRg(String docRg) {
+        this.docRg = docRg;
+    }
+
+    public Long getDocCpf() {
+        return docCpf;
+    }
+
+    public void setDocCpf(Long docCpf) {
+        this.docCpf = docCpf;
+    }
+
+    public void setCpf(String docCpf) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setDocCpf(String docCpf) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
