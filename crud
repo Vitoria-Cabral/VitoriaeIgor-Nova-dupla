@@ -21,3 +21,6 @@ ALTER TABLE public.usuario
 CREATE SEQUENCE public.sq_usuario;
 ALTER TABLE public.sq_usuario
   OWNER TO postgres;
+
+
+
