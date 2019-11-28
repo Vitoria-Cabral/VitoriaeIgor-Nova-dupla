@@ -61,6 +61,7 @@ try {
         user.setNome(nomeCompleto);
         user.setSenha(senha);
         user.setDocRg(docRg);
+        user.setDocCpf(docCpf);
       
         
         double aleatorio = Math.random();
